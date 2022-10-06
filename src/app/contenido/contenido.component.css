@@ -1,0 +1,114 @@
+
+
+body{
+    background:url(../../assets/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: hsl(208, 100%, 97%);
+}
+
+nav{
+    background: hsl(0, 39%, 48%);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around
+}
+
+header nav ul li { 
+    overflow: hidden; 
+    float: left; 
+}
+    
+header nav ul li a{ 
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.7rem;
+    margin: 25px;
+} 
+ nav a:hover{
+    background-color: hsl(0, 47%, 76%);
+
+}
+    
+
+.logo{
+    background: hsl(0, 39%, 48%);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: i
+
+}
+.logo p{
+    display: inline;
+    margin-left: 20%;
+    font-size: 4rem;
+    font-style: oblique;
+    text-decoration: underline hsl(0, 0%, 99%);
+   
+}
+
+
+.fotoYo{
+    width: 15% ;
+    border: 10px solid;    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: '1 2';
+
+    
+
+}
+.inf{
+    background: hsl(0, 39%, 60%);
+    font-size: 1.7rem;
+    margin: 3rem;
+    padding: 0.5rem;
+    border: 10px solid white;
+    width: 70%;
+    
+    
+ }
+
+.datos{
+    background: hsl(0, 39%, 60%);
+    font-size: 1.7rem;
+    margin: 3rem;
+    padding: 0.5rem;
+    border: 10px solid rgb(255, 254, 254);
+    width: 70%;
+}
+
+aside{
+    background: hsl(0, 39%, 60%);
+    margin: 3rem;
+    border: 10px solid rgb(255, 254, 254);
+    width:fit-content;
+    display: grid;
+}
+
+footer{
+    background: hsl(0, 39%, 48%);
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.6rem;
+    padding: 1rem;
+    display: inline;
+    justify-content: space-around;
+
+}
+
+footer p:first-child:hover {
+    background: hsl(0, 47%, 76%);
+}
+
+
+
+
+    

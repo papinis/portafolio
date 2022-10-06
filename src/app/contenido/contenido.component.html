@@ -1,0 +1,49 @@
+<body >
+    <header>
+        <div class="logo">
+            <img src="../../assets/Fotoyo.png" alt="Soy sofia" class="fotoYo">
+            <p>Bienvenidos a mi pagina web</p>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#">Inicio</a></li>
+                <li> <a href="#">Sobre mi</a></li>
+                <li> <a href="#" (click)="abrirForm()">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div>
+            <section class="inf">
+                <article>
+                    <h2>HOLA, SOY SOFIA</h2>
+                    <p>Mi nombre es Sofia Papini, soy Project manager y estoy estudiando html y css</p>
+                </article>
+            </section>
+            <section class="datos">
+                <article>
+                    <h2>Datos no importantes:</h2>
+                    <p>Me gusta el helado, dormir y en lo posible no hacer nada.</p>
+                </article>
+            </section>
+        </div>
+        <aside>
+        <img src="../../assets/jesus-dancing.gif" alt="Jesus te ama">
+        </aside>
+    </section>
+   
+    <div *ngIf="abrir">
+        <app-formulario>
+        
+        </app-formulario>
+    </div>
+
+    <footer>
+        <p>Sofia Papini</p>
+        <p> Derechos de autor jejox 2022</p>
+
+
+    </footer>
+</body>

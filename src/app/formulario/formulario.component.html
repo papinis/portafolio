@@ -1,0 +1,33 @@
+
+<body *ngIf="hola" >
+
+    <form>
+        <label for="nombre">Ingrese su nombre y apellido</label>
+        <input type="text" placeholder="Escribe tu nombre y apellido" name="nombre" id="nombre">
+        <br><br>
+        <label for="email">Ingrese su email</label>
+        <input type="email" placeholder="Escribe tu email" name="" id="">
+        <br> <br>
+        <label for="mensaje"> Ingrse su mensaje</label>
+        <input type="password" placeholder="Escribe tu contraseña" name="contraseña" id="contraseña">
+        <br> <br>
+
+        <input type="radio" name="sexo" id="">Urgencia
+        <input type="radio" name="sexo" id="">No tan importante
+        <input type="radio" name="sexo" id="">Que buena pagina aguante messi
+        <br> <br>
+        <select name="consult" id="">
+            <option value="Argentina">Trabajo</option>
+            <option value="Argentina">Juntada</option>
+            <option value="Argentina">Un favor</option>
+            <option value="Argentina">Otras</option>
+        </select>
+
+        <br><br><br><br>
+       
+        <input type="button" value="Enviar al mail">
+
+        <input type="button" value="Cerrar formulario" (click)="cerrarForm()" > 
+    </form>
+    
+</body>
